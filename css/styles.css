@@ -252,8 +252,7 @@ header {
 
 .modal-wrapper {
   position: absolute;
-  width: 530px;
-  height: 580px;
+  width: 530px; 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -262,6 +261,7 @@ header {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   z-index: 10;
+  padding: 40px;
 }
 
 .modal-btn {
@@ -280,6 +280,33 @@ header {
 .close-btn {
   color: #000000;
 }
+.form-title {
+      font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-policy-group {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.form-policy-desc {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 
 /*Преимущества*/
 
