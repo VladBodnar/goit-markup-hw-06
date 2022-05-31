@@ -279,8 +279,15 @@ header {
 }
 
 .close-btn {
-  color: #000000;
+  fill: #000000;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.close-btn:hover,
+.close-btn:focus {
+  fill: #2196F3;
+}
+
 .form-title {
       font-weight: 700;
     font-size: 20px;
@@ -314,16 +321,42 @@ header {
   line-height: 1.14;
 border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding: 12px 20px 12px 42px;
+  padding: 12px 12px 12px 42px;
+  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
+.form-input:hover,
+.form-input:focus {
+  outline: 1px solid #2196F3;
+}
 
 .form-icon {
   position: absolute;
   bottom: 12px;
   left: 12px;
+  fill: rgb(230, 27, 122);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.form-input:focus+.form-icon {
+  fill: #2196F3;
+}
+
+.form-comment {
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.14;  
+  outline: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 12px 16px;
+  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+.form-comment:hover,
+.form-comment:focus {
+outline: 1px solid #2196F3;
 }
 
 .form-policy-group {
@@ -352,7 +385,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   outline: solid 2px #212121;
   outline-offset: -2px;
   border-radius: 2px;  
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox:checked+.custom-checkbox  {
@@ -362,15 +395,15 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 
 .custom-checkbox-icon {
   fill: #ffffff;
- /* opacity: 0;
+  opacity: 0;
 
- transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
+ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/*
+
 .checkbox:checked + .custom-checkbox .custom-checkbox-icon {
   opacity: 1;
 }
-*/
+
 
 .checkbox:hover+.custom-checkbox,
 .checkbox:focus+.custom-checkbox {
