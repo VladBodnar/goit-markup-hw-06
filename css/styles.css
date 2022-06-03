@@ -852,6 +852,7 @@ outline: 1px solid #2196F3;
 
 .connect {
   display: block;
+  margin-right: 70px;
 }
 
 .connect-name {
@@ -892,4 +893,41 @@ outline: 1px solid #2196F3;
 
 .connect-icon {
   fill: #ffffff;
+}
+
+.subscribe-name {
+  margin-bottom: 10px;
+  font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
+    color: #FFFFFF;
+}
+
+.form-subscribe {
+  width: 360px;
+  padding: 16px 15px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: inherit;
+   
+    font-size: 16px;
+      line-height: 1.25;      
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.03em;    
+      color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.subscribe-btn {
+  position: relative;
+}
+
+.subscribe-icon{
+  position: absolute;
+  fill: crimson;
 }
