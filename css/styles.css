@@ -790,19 +790,19 @@ outline: 1px solid #2196F3;
 
 /*Подвал*/
 
-.footer {
+.footer { 
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--dark-bg-cl);
 }
 
 .foot-cont {
-  display: flex;
+  display: flex;  
   align-items: baseline;
 }
 
 .footer-cont {
-  margin-right: 70px;
+  margin-right: 80px;
 }
 
 .logo-footer {
@@ -852,7 +852,7 @@ outline: 1px solid #2196F3;
 
 .connect {
   display: block;
-  margin-right: 70px;
+  margin-right: 95px;
 }
 
 .connect-name {
@@ -895,14 +895,23 @@ outline: 1px solid #2196F3;
   fill: #ffffff;
 }
 
+.subscribe {
+  display: block;
+ margin-right: 0;
+}
+
 .subscribe-name {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;  
     color: #FFFFFF;
+}
+
+.form-subscribe-label {
+  display: flex;
 }
 
 .form-subscribe {
@@ -925,9 +934,12 @@ outline: 1px solid #2196F3;
 
 .subscribe-btn {
   position: relative;
+  padding: 10px 62px 10px 29px;
 }
 
 .subscribe-icon{
   position: absolute;
-  fill: crimson;
+  top: 13px;
+  right: 28px;
+  fill: #ffffff;
 }
